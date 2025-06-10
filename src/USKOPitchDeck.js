@@ -231,14 +231,16 @@ const slides = [
             </li>
           </ul>
           
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-            <div>
+          <div className="mt-4 space-y-4">
+            {/* Featured Crane Services - Enlarged */}
+            <div className="w-full">
+              <img src="https://i.imgur.com/294yryT.jpg" alt="USKO Crane Services" className="w-full h-48 md:h-64 object-contain rounded-lg shadow-lg bg-gray-50" />
+              <p className="text-sm md:text-base text-gray-500 text-center italic mt-2 font-medium">Specialized crane services for heavy military equipment</p>
+            </div>
+            {/* Humvee Transport */}
+            <div className="w-full">
               <img src="https://i.imgur.com/ZI791yS.jpg" alt="USKO Humvee Transportation" className="w-full h-32 md:h-40 object-cover rounded-lg shadow-md" />
               <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO military Humvee transportation services</p>
-            </div>
-            <div>
-              <img src="https://i.imgur.com/294yryT.jpg" alt="USKO Crane Services" className="w-full h-32 md:h-40 object-contain rounded-lg shadow-md bg-gray-50" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Specialized crane services for heavy equipment</p>
             </div>
           </div>
         </div>
