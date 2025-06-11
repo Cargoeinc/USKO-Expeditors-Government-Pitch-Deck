@@ -536,11 +536,9 @@ const slides = [
 
         {/* Photo Only Card */}
         <div className="bg-gray-50 rounded-2xl p-6 shadow-lg md:col-span-2 border border-gray-100">
-          <div className="flex justify-center">
-            <div>
-              <img src="https://i.imgur.com/i6n7U3K.jpg" alt="USKO 10K Forklift Services" className="w-full max-w-md h-36 md:h-48 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">10K forklift services for heavy equipment</p>
-            </div>
+          <div className="w-full">
+            <img src="https://i.imgur.com/i6n7U3K.jpg" alt="USKO 10K Forklift Services" className="w-full h-48 md:h-72 lg:h-80 object-cover rounded-xl shadow-xl" />
+            <p className="text-sm md:text-base text-gray-500 text-center italic mt-3 font-medium">10K forklift services for heavy equipment</p>
           </div>
         </div>
       </div>
