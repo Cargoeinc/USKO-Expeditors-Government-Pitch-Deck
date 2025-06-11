@@ -591,9 +591,15 @@ const slides = [
           </ul>
           
           {/* Military Transportation Showcase */}
-          <div className="mt-4 bg-white rounded-lg p-3 md:p-4 shadow-sm border border-gray-100">
-            <img src="https://i.imgur.com/ZI791yS.jpg" alt="USKO Military Transportation Excellence" className="w-full h-32 md:h-48 object-cover rounded-lg shadow-md" />
-            <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO's proven military transportation capabilities in action</p>
+          <div className="mt-4 bg-white rounded-lg p-3 md:p-4 shadow-sm border border-gray-100 space-y-4">
+            <div>
+              <img src="https://i.imgur.com/UJoIUSe.jpg" alt="USKO RGN Fire Truck Transport" className="w-full h-32 md:h-48 object-cover rounded-lg shadow-md" />
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO RGN fire truck transportation services</p>
+            </div>
+            <div>
+              <img src="https://i.imgur.com/BeVbdbf.jpg" alt="USKO Power Only Tanker Haul" className="w-full h-32 md:h-48 object-cover rounded-lg shadow-md" />
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Power only vehicle transporting fuel tanker</p>
+            </div>
           </div>
         </div>
         
@@ -647,7 +653,7 @@ const slides = [
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-[#eb0028]">Ready to Partner?</h3>
+              <h3 className="text-xl font-semibold text-[#eb0028]">Ready to Collaborate?</h3>
             </div>
             <p className="text-gray-700">USKO is positioned to be your strategic ground transportation partner for government and military contracts. With our DoD approval, diverse fleet capabilities, and existing CAS access, we can immediately support Expeditors' expansion into the government transportation sector.</p>
           </div>
