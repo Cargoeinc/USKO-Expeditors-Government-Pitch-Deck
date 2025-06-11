@@ -292,6 +292,12 @@ const slides = [
               <span>DoD-approved drivers with security clearance protocols</span>
             </li>
           </ul>
+          
+          {/* Box Truck Image under DoD-approved drivers */}
+          <div className="mt-4">
+            <img src="https://i.imgur.com/525TT5b.jpg" alt="USKO Expedite Box Truck" className="w-full h-32 md:h-48 lg:h-56 object-cover rounded-lg shadow-md" />
+            <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO Expedite box truck for secure government freight deliveries</p>
+          </div>
         </div>
         
         <div className="bg-gray-50 rounded-xl p-4 shadow-lg md:col-span-2">
@@ -596,9 +602,31 @@ const slides = [
               <img src="https://i.imgur.com/UJoIUSe.jpg" alt="USKO RGN Fire Truck Transport" className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg shadow-md" />
               <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO RGN fire truck transportation services</p>
             </div>
-            <div>
-              <img src="https://i.imgur.com/BeVbdbf.jpg" alt="USKO Power Only Tanker Haul" className="w-full h-32 md:h-48 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Power only vehicle transporting fuel tanker</p>
+            {/* Ready to Collaborate Section - Enhanced for visual impact */}
+            <div className="relative bg-gradient-to-br from-[#eb0028] via-[#ff1a3d] to-[#d4002a] p-8 rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-300 border-2 border-white/20 overflow-hidden">
+              {/* Decorative background elements */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
+              
+              <div className="relative z-10">
+                <div className="flex items-center mb-4">
+                  <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white mr-4 shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg">Ready to Collaborate?</h3>
+                </div>
+                <p className="text-white/95 text-lg leading-relaxed font-medium drop-shadow-sm">USKO is positioned to be your strategic ground transportation partner for government and military contracts. With our DoD approval, diverse fleet capabilities, and existing CAS access, we can immediately support Expeditors' expansion into the government transportation sector.</p>
+                
+                {/* Call-to-action element */}
+                <div className="mt-6 inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm rounded-full text-white font-semibold hover:bg-white/30 transition-all duration-300 cursor-pointer">
+                  <span className="mr-2">Let's Partner Together</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -646,16 +674,10 @@ const slides = [
             </div>
           </div>
           
-          <div className="bg-[#eb0028]/5 p-6 rounded-xl border border-[#eb0028]/20">
-            <div className="flex items-center mb-3">
-              <div className="w-10 h-10 rounded-full bg-[#eb0028] flex items-center justify-center text-white mr-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[#eb0028]">Ready to Collaborate?</h3>
-            </div>
-            <p className="text-gray-700">USKO is positioned to be your strategic ground transportation partner for government and military contracts. With our DoD approval, diverse fleet capabilities, and existing CAS access, we can immediately support Expeditors' expansion into the government transportation sector.</p>
+          {/* USKO Team Photo Section - moved from left column */}
+          <div className="bg-white rounded-lg p-3 md:p-4 shadow-sm border border-gray-100">
+            <img src="https://i.imgur.com/SMwHYDN.jpg" alt="USKO Team" className="w-full h-56 md:h-72 lg:h-80 object-cover rounded-lg shadow-md" />
+            <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO professional team dedicated to excellence</p>
           </div>
         </div>
       </div>
