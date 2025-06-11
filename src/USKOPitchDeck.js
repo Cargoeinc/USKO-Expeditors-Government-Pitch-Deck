@@ -552,12 +552,12 @@ const slides = [
   </section>,
 
   // Geodis/IBM Custom Slide
-  <section className="flex flex-col justify-center items-center p-6 bg-white">
+  <section className="flex flex-col justify-center items-center p-4 sm:p-6 bg-white min-h-screen">
     <div className="max-w-6xl mx-auto w-full">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Partnering with <span className="text-black">Expeditors International</span></h1>
-      <h2 className="text-xl md:text-2xl text-gray-700 mb-5 text-center max-w-2xl mx-auto font-semibold">Growing Government Business Through Heavy Air, Ocean, And Ground Transportation Partnership</h2>
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Partnering with <span className="text-black">Expeditors International</span></h1>
+      <h2 className="text-lg sm:text-xl lg:text-2xl text-gray-700 mb-4 sm:mb-5 text-center max-w-2xl mx-auto font-semibold px-4">Growing Government Business Through Heavy Air, Ocean, And Ground Transportation Partnership</h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mt-4">
         <div className="bg-gray-50 p-4 rounded-xl shadow-lg">
           <h3 className="text-lg font-semibold text-[#eb0028] mb-3">Our Value Proposition</h3>
           <ul className="space-y-3">
@@ -602,29 +602,31 @@ const slides = [
               <img src="https://i.imgur.com/UJoIUSe.jpg" alt="USKO RGN Fire Truck Transport" className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg shadow-md" />
               <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO RGN fire truck transportation services</p>
             </div>
-            {/* Ready to Collaborate Section - Enhanced for visual impact */}
-            <div className="relative bg-gradient-to-br from-[#eb0028] via-[#ff1a3d] to-[#d4002a] p-8 rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-300 border-2 border-white/20 overflow-hidden">
-              {/* Decorative background elements */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
+            {/* Ready to Collaborate Section - Enhanced for visual impact & Mobile Optimized */}
+            <div className="relative bg-gradient-to-br from-[#eb0028] via-[#ff1a3d] to-[#d4002a] p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-300 border-2 border-white/20 overflow-hidden">
+              {/* Decorative background elements - Mobile responsive */}
+              <div className="absolute top-0 right-0 w-20 h-20 sm:w-32 sm:h-32 bg-white/10 rounded-full -mr-10 sm:-mr-16 -mt-10 sm:-mt-16"></div>
+              <div className="absolute bottom-0 left-0 w-16 h-16 sm:w-24 sm:h-24 bg-white/5 rounded-full -ml-8 sm:-ml-12 -mb-8 sm:-mb-12"></div>
               
               <div className="relative z-10">
-                <div className="flex items-center mb-4">
-                  <div className="w-14 h-14 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white mr-4 shadow-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="flex flex-col sm:flex-row sm:items-center mb-3 sm:mb-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white mb-2 sm:mb-0 sm:mr-4 shadow-lg mx-auto sm:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-7 sm:w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-white drop-shadow-lg">Ready to Collaborate?</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white drop-shadow-lg text-center sm:text-left">Ready to Collaborate?</h3>
                 </div>
-                <p className="text-white/95 text-lg leading-relaxed font-medium drop-shadow-sm">USKO is positioned to be your strategic ground transportation partner for government and military contracts. With our DoD approval, diverse fleet capabilities, and existing CAS access, we can immediately support Expeditors' expansion into the government transportation sector.</p>
+                <p className="text-white/95 text-sm sm:text-base lg:text-lg leading-relaxed font-medium drop-shadow-sm mb-4 sm:mb-6">USKO is positioned to be your strategic ground transportation partner for government and military contracts. With our DoD approval, diverse fleet capabilities, and existing CAS access, we can immediately support Expeditors' expansion into the government transportation sector.</p>
                 
-                {/* Call-to-action element */}
-                <div className="mt-6 inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-sm rounded-full text-white font-semibold hover:bg-white/30 transition-all duration-300 cursor-pointer">
-                  <span className="mr-2">Let's Partner Together</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
+                {/* Call-to-action element - Mobile optimized with better touch targets */}
+                <div className="flex justify-center sm:justify-start">
+                  <div className="inline-flex items-center px-4 sm:px-6 py-3 sm:py-3 bg-white/20 backdrop-blur-sm rounded-full text-white font-semibold hover:bg-white/30 transition-all duration-300 cursor-pointer text-sm sm:text-base min-h-[44px] touch-manipulation">
+                    <span className="mr-2">Let's Partner Together</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -632,9 +634,9 @@ const slides = [
         </div>
         
         <div className="space-y-6">
-          <div className="bg-gray-50 p-6 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold text-[#eb0028] mb-4">Key Benefits for Expeditors Government Division</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+          <div className="bg-gray-50 p-4 sm:p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl sm:text-2xl font-semibold text-[#eb0028] mb-3 sm:mb-4">Key Benefits for Expeditors Government Division</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
               <div className="bg-white p-4 rounded-lg border border-gray-100 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-[#eb0028]/10 flex items-center justify-center mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#eb0028]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
