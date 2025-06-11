@@ -665,12 +665,6 @@ const slides = [
   // Closing Slide
   <section className="flex flex-col justify-center items-center px-3 py-4 md:p-8 pb-16 bg-white min-h-screen">
     <div className="max-w-6xl mx-auto w-full">
-      <div className="text-center mb-6 md:mb-8">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-[#eb0028] mb-3 md:mb-4">Ready to Transform Your <span className="text-black">Logistics Experience?</span></h1>
-        <h2 className="text-lg md:text-2xl text-gray-700 mb-4 md:mb-6 max-w-3xl mx-auto font-semibold">
-          Partner with USKO to elevate Expeditors International's government transportation capabilities with our specialized heavy haul fleet and military logistics expertise.
-        </h2>
-      </div>
 
       {/* USKO Family of Companies Section */}
       <div className="bg-[#eb0028]/5 p-4 md:p-6 rounded-xl border border-[#eb0028]/20 shadow-lg mx-auto max-w-3xl mb-6 md:mb-8">
