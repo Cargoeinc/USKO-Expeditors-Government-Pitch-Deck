@@ -447,7 +447,7 @@ const slides = [
               'Dual Driver Services',
               'Satellite Tracking & Monitoring',
               'Tally Record Documentation',
-              'Crane Services Coordination'
+              'Inbound/Outbound Ocean Port Services'
             ].map((service, index) => (
               <div key={index} className="flex items-center p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors duration-200">
                 <div className="w-2 h-2 rounded-full bg-[#eb0028] mr-3"></div>
@@ -493,7 +493,6 @@ const slides = [
 
         {/* Specialized Capabilities Card */}
         <div className="bg-gradient-to-br from-[#eb0028] to-[#ff1a3d] rounded-2xl p-6 shadow-xl md:col-span-2 transform hover:scale-[1.01] transition-all duration-300">
-          <h3 className="text-xl font-bold text-white mb-4">Military Transportation Capabilities</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               {
@@ -535,25 +534,12 @@ const slides = [
           </div>
         </div>
 
-        {/* Statement Card */}
+        {/* Photo Only Card */}
         <div className="bg-gray-50 rounded-2xl p-6 shadow-lg md:col-span-2 border border-gray-100">
-          <div className="flex items-center mb-4">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#eb0028] to-[#ff1a3d] flex items-center justify-center text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-gray-800 ml-4">Military Transportation Capabilities</h3>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <div className="flex justify-center">
             <div>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                As a SDDC approved DoD Transportation Service Provider (TSP), USKO offers specialized military and government heavy haul transportation services. Our comprehensive solutions include expedited transportation, dual driver services, satellite tracking, tally record documentation, and crane services coordination. We have access to Carrier Appointment Scheduling (CAS) to schedule appointments with military bases, ensuring seamless delivery of critical equipment and supplies.
-              </p>
-            </div>
-            <div>
-              <img src="https://i.imgur.com/i6n7U3K.jpg" alt="USKO 10K Forklift Services" className="w-full h-36 md:h-48 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">10K forklift services for heavy military equipment</p>
+              <img src="https://i.imgur.com/i6n7U3K.jpg" alt="USKO 10K Forklift Services" className="w-full max-w-md h-36 md:h-48 object-cover rounded-lg shadow-md" />
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">10K forklift services for heavy equipment</p>
             </div>
           </div>
         </div>
