@@ -593,7 +593,7 @@ const slides = [
           {/* Military Transportation Showcase */}
           <div className="mt-4 bg-white rounded-lg p-3 md:p-4 shadow-sm border border-gray-100 space-y-4">
             <div>
-              <img src="https://i.imgur.com/UJoIUSe.jpg" alt="USKO RGN Fire Truck Transport" className="w-full h-32 md:h-48 object-cover rounded-lg shadow-md" />
+              <img src="https://i.imgur.com/UJoIUSe.jpg" alt="USKO RGN Fire Truck Transport" className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg shadow-md" />
               <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO RGN fire truck transportation services</p>
             </div>
             <div>
