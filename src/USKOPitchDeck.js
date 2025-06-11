@@ -606,7 +606,7 @@ const slides = [
         <div className="space-y-6">
           <div className="bg-gray-50 p-6 rounded-xl shadow-lg">
             <h3 className="text-2xl font-semibold text-[#eb0028] mb-4">Key Benefits for Expeditors Government Division</h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
               <div className="bg-white p-4 rounded-lg border border-gray-100 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-[#eb0028]/10 flex items-center justify-center mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#eb0028]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -757,8 +757,8 @@ const slides = [
           <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">California Office</h3>
           <p className="text-sm md:text-base text-gray-700 mb-3">Our main West Coast facility</p>
           <div className="flex flex-col items-center">
-            <p className="font-bold text-[#eb0028] text-base">1101 CREEKSIDE RIDGE DR STE&nbsp;270</p>
-            <p className="font-bold text-[#eb0028] text-base">ROSEVILLE, CA 95678</p>
+            <p className="font-bold text-[#eb0028] text-sm md:text-base text-center">1101 CREEKSIDE RIDGE DR STE&nbsp;270</p>
+            <p className="font-bold text-[#eb0028] text-sm md:text-base text-center">ROSEVILLE, CA 95678</p>
           </div>
         </div>
       </div>
