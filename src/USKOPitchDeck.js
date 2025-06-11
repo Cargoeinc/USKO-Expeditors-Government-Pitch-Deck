@@ -328,7 +328,7 @@ const slides = [
   <section className="flex flex-col justify-center items-center px-3 md:px-8 lg:px-24 py-4 md:py-8 bg-white min-h-screen">
     <div className="max-w-6xl mx-auto w-full">
       <div className="bg-[#eb0028]/10 p-3 md:p-4 rounded-lg border border-[#eb0028]/30 mb-4 md:mb-6 text-center">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Our <span className="text-black">Branch Network</span></h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Our <span className="text-black">Network</span></h1>
         <h2 className="text-lg md:text-2xl text-gray-700 text-center max-w-3xl mx-auto font-semibold">Strategic Locations Across North America and Europe</h2>
       </div>
       
@@ -342,10 +342,7 @@ const slides = [
             </div>
             <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">United States</h3>
             <ul className="space-y-2 w-full">
-              <li className="flex justify-between bg-white p-2 rounded-lg border border-gray-200 shadow-sm">
-                <span className="text-gray-700 font-medium text-sm">West Sacramento, CA</span>
-                <span className="font-medium text-sm">Branch</span>
-              </li>
+
               <li className="flex justify-between bg-white p-2 rounded-lg border border-gray-200 shadow-sm">
                 <span className="text-gray-700 font-medium text-sm">Roseville, CA</span>
                 <span className="font-medium text-sm">Corporate HQ</span>
@@ -417,7 +414,7 @@ const slides = [
         
         <div className="mt-4 bg-[#eb0028]/5 p-4 rounded-xl border border-[#eb0028]/20 shadow-lg text-center">
           <p className="text-gray-700 text-sm">
-            All USKO branches are strategically positioned to provide optimal coverage for Expeditors International shipments.
+            All USKO offices are strategically positioned to provide optimal coverage for Expeditors International shipments.
           </p>
         </div>
       </div>
