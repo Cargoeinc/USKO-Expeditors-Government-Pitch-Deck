@@ -190,7 +190,7 @@ const slides = [
   <section className="flex flex-col justify-center items-center px-3 py-4 md:p-8 bg-white min-h-screen">
     <div className="max-w-6xl mx-auto w-full">
       <div className="bg-[#eb0028]/10 p-3 md:p-4 rounded-lg border border-[#eb0028]/30 mb-4 md:mb-6 text-center">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Our <span className="text-black">Transportation Assets</span></h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Our <span className="text-black">Transportation Capabilities</span></h1>
         <h2 className="text-lg md:text-2xl text-gray-700 text-center max-w-3xl mx-auto font-semibold">Comprehensive Fleet Solutions for Every Need</h2>
       </div>
       
@@ -235,12 +235,12 @@ const slides = [
             {/* Featured Crane Services - Enlarged */}
             <div className="w-full">
               <img src="https://i.imgur.com/294yryT.jpg" alt="USKO Crane Services" className="w-full h-48 md:h-64 object-contain rounded-lg shadow-lg bg-gray-50" />
-              <p className="text-sm md:text-base text-gray-500 text-center italic mt-2 font-medium">Specialized crane services for heavy military equipment</p>
+              <p className="text-sm md:text-base text-gray-500 text-center italic mt-2 font-medium">Specialized crane services for heavy equipment</p>
             </div>
             {/* Humvee Transport */}
             <div className="w-full">
               <img src="https://i.imgur.com/ZI791yS.jpg" alt="USKO Humvee Transportation" className="w-full h-32 md:h-40 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO military Humvee transportation services</p>
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">USKO Humvee transportation services</p>
             </div>
           </div>
         </div>
@@ -258,11 +258,11 @@ const slides = [
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mb-4">
             <div>
               <img src="https://i.imgur.com/ccbyeY8.jpg" alt="USKO Military Vehicle Transport" className="w-full h-32 md:h-40 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Military vehicle transportation services</p>
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Inbound/Outbound Port Transportation Services</p>
             </div>
             <div>
               <img src="https://i.imgur.com/NKqJeEz.jpg" alt="USKO Military Container Movement" className="w-full h-32 md:h-40 object-cover rounded-lg shadow-md" />
-              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Military container and cargo movement</p>
+              <p className="text-xs md:text-sm text-gray-500 text-center italic mt-1 md:mt-2">Base relocation movement</p>
             </div>
           </div>
           
@@ -271,7 +271,7 @@ const slides = [
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#eb0028] mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Expedited heavy haul transportation for oversized military equipment</span>
+              <span>Expedited heavy haul transportation for oversized Cargo</span>
             </li>
             <li className="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#eb0028] mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -283,7 +283,7 @@ const slides = [
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#eb0028] mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>700+ sprinter vans for expedited military deliveries</span>
+              <span>700+ sprinter vans for expedited Government Freight deliveries</span>
             </li>
             <li className="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#eb0028] mr-3 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -305,8 +305,8 @@ const slides = [
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="border-l-4 border-[#eb0028] pl-3">
-              <h4 className="font-semibold text-gray-800 mb-1 text-sm">DoD Approved</h4>
-              <p className="text-gray-700 text-xs">SDDC approved Transportation Service Provider with established CAS access for military base scheduling and immediate contract support.</p>
+              <h4 className="font-semibold text-gray-800 mb-1 text-sm">Track Record</h4>
+              <p className="text-gray-700 text-xs">USKO has extensive experience in fulfilling Government Freight Transport requirements with proven reliability and compliance standards.</p>
             </div>
             <div className="border-l-4 border-[#eb0028] pl-3">
               <h4 className="font-semibold text-gray-800 mb-1 text-sm">Heavy Haul Expertise</h4>
