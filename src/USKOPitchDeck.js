@@ -549,7 +549,7 @@ const slides = [
   <section className="flex flex-col justify-center items-center p-6 bg-white">
     <div className="max-w-6xl mx-auto w-full">
       <h1 className="text-4xl md:text-5xl font-extrabold text-[#eb0028] mb-2 text-center tracking-tight">Partnering with <span className="text-black">Expeditors International</span></h1>
-      <h2 className="text-xl md:text-2xl text-gray-700 mb-5 text-center max-w-2xl mx-auto font-semibold">Growing Government Business Through Ground Transportation Partnership</h2>
+      <h2 className="text-xl md:text-2xl text-gray-700 mb-5 text-center max-w-2xl mx-auto font-semibold">Growing Government Business Through Heavy Air, Ocean, And Ground Transportation Partnership</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         <div className="bg-gray-50 p-4 rounded-xl shadow-lg">
